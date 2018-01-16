@@ -27,7 +27,7 @@ class Stack {
         return result;
     }
 
-    peek(value) {
+    peek() {
         return this.storage[this.count - 1];
     }
 }
