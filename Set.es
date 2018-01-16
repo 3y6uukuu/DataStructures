@@ -1,4 +1,4 @@
-class customSet {
+class CustomSet {
     constructor() {
         this.collection = [];
     }
@@ -82,8 +82,8 @@ class customSet {
 }
 
 //Tests
-const firstSet = new customSet();
-const secondSet = new customSet();
+const firstSet = new CustomSet();
+const secondSet = new CustomSet();
 
 firstSet.add('One');
 firstSet.add('One');
